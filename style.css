@@ -1,0 +1,142 @@
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+.img_logo-fluid{
+  width: 7vmax;
+}
+.burger_link{
+  position: absolute;
+  width: 4vmax;
+  left: 3%;
+  top: 2%;
+    display: none;
+}
+.nav_menu{
+    margin-top: 3vmax;
+  padding-left: 4vmax;
+  font-size: 1.5vmax;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  }
+  .nav_atlas{
+    width: 15vmax;
+  }
+  .submenu_atlas {
+    background: antiquewhite;
+    font-size: 17px;
+    font-weight: 500;
+    width: 350px;
+    height: 152px;
+    display: none;
+    position: absolute;  
+  }
+  .submenu_bases {
+    background: antiquewhite;
+    font-size: 17px;
+    font-weight: 500;
+    width: 350px;
+    height: 139px;
+    display: none;
+    position: absolute;
+   
+  }
+  .submenu_education {
+    background: antiquewhite;
+    font-size: 17px;
+    font-weight: 500;
+    width: 418px;
+    height: 140px;
+    display: none;
+    position: absolute;
+    
+  }
+.header_img {
+  display: flex;
+  justify-content: center;
+}
+.container_xRay { 
+    display: flex;
+    width: 96%;
+    text-indent: 2%;
+    margin-top: 1rem;
+    height: auto;
+    background-color: rgba(100, 148, 237, 0.466);
+    margin-left: 1rem;
+    padding-left: 1vmax;
+    border-radius: 2px;
+
+}
+.image-fluid {
+  width: 6vmax;
+  margin-left: 1vmax;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+.text_block{
+  padding-top: 1vmax;
+  font-size: 18px;
+text-align: justify;
+padding-right: 2vmax;
+}
+h2{
+    text-align: center;
+}
+.img_bases-fluid{
+    width: 55%;
+  margin-left: 10vmax;
+}
+.text_bases{
+    margin-left: 12vmax;
+    font-size: 18px;
+}
+.test_img-fluid{
+    width: 12vmax;
+}
+.container_img{
+    display: flex;
+    justify-content: center;
+}
+.container_test{
+    padding-top: 4vmax;
+    font-size: 18px;
+}
+.sticky-top{
+  display: none;
+  background-color: rgba(245, 243, 240, 0.041)!important;
+}
+.navbar-toggler{
+ border-color: aqua!important;
+}
+@media(max-width:1100px){
+  .submenu_education{
+    right: 9%;
+  }
+}
+@media(max-width:994px){
+  .nav_menu{
+    display: none;
+  }
+  .sticky-top{
+    display: block;
+  }
+}
+@media(max-width:574px){
+ 
+  .container_test{
+    margin-left: 3vmax;
+    width: 92%;
+  }
+  .container_xRay { 
+    
+    width: 94%;
+    
+    
+
+}
+ 
+}
